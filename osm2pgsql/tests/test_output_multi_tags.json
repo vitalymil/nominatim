@@ -1,0 +1,86 @@
+[
+  {
+    "name": "test_points_1",
+    "type": "point",
+    "tagtransform": "tests/test_output_multi_tags.lua",
+    "tagtransform-node-function": "test_nodes_1",
+    "tagtransform-way-function": "drop_all",
+    "tagtransform-relation-function": "drop_all",
+    "tagtransform-relation-member-function": "drop_all",
+    "tags": [
+      {"name": "foo", "type": "text"},
+      {"name": "bar", "type": "text"},
+      {"name": "baz", "type": "text"}
+    ]
+  },
+  {
+    "name": "test_points_2",
+    "type": "point",
+    "tagtransform": "tests/test_output_multi_tags.lua",
+    "tagtransform-node-function": "test_nodes_2",
+    "tagtransform-way-function": "drop_all",
+    "tagtransform-relation-function": "drop_all",
+    "tagtransform-relation-member-function": "drop_all",
+    "tags": [
+      {"name": "foo", "type": "text"},
+      {"name": "bar", "type": "text"},
+      {"name": "baz", "type": "text"}
+    ]
+  },
+  {
+    "name": "test_line_1",
+    "type": "line",
+    "tagtransform": "tests/test_output_multi_tags.lua",
+    "tagtransform-node-function": "drop_all",
+    "tagtransform-way-function": "test_line_1",
+    "tagtransform-relation-function": "drop_all",
+    "tagtransform-relation-member-function": "drop_all",
+    "tags": [
+      {"name": "foo", "type": "text"},
+      {"name": "bar", "type": "text"},
+      {"name": "baz", "type": "text"}
+    ]
+  },
+  {
+    "name": "test_line_2",
+    "type": "line",
+    "tagtransform": "tests/test_output_multi_tags.lua",
+    "tagtransform-node-function": "drop_all",
+    "tagtransform-way-function": "test_line_2",
+    "tagtransform-relation-function": "drop_all",
+    "tagtransform-relation-member-function": "drop_all",
+    "tags": [
+      {"name": "foo", "type": "text"},
+      {"name": "bar", "type": "text"},
+      {"name": "baz", "type": "text"}
+    ]
+  },
+  {
+    "name": "test_polygon_1",
+    "type": "line",
+    "tagtransform": "tests/test_output_multi_tags.lua",
+    "tagtransform-node-function": "drop_all",
+    "tagtransform-way-function": "test_polygon_1",
+    "tagtransform-relation-function": "drop_all",
+    "tagtransform-relation-member-function": "drop_all",
+    "tags": [
+      {"name": "foo", "type": "text"},
+      {"name": "bar", "type": "text"},
+      {"name": "baz", "type": "text"}
+    ]
+  },
+  {
+    "name": "test_polygon_2",
+    "type": "line",
+    "tagtransform": "tests/test_output_multi_tags.lua",
+    "tagtransform-node-function": "drop_all",
+    "tagtransform-way-function": "test_polygon_2",
+    "tagtransform-relation-function": "drop_all",
+    "tagtransform-relation-member-function": "drop_all",
+    "tags": [
+      {"name": "foo", "type": "text"},
+      {"name": "bar", "type": "text"},
+      {"name": "baz", "type": "text"}
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+*.log
+*.pyc
+
+build
+settings/local.php
+
+data/wiki_import.sql
+data/wiki_specialphrases.sql
+data/osmosischange.osc
+
+.vagrant

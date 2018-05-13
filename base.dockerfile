@@ -1,4 +1,7 @@
 FROM ubuntu:16.04
+COPY apt.conf /etc/apt/
+ENV https_proxy=http://user108:User108!@172.16.0.254:8080
+ENV http_proxy=http://user108:User108!@172.16.0.254:8080
 
 RUN apt-get update -q
 RUN apt-get -o DPkg::options::="--force-confdef" -o DPkg::options::="--force-confold" --force-yes -fuy install grub-pc
@@ -24,3 +27,5 @@ RUN apt-get install -y libboost-python-dev
 
 RUN pip3 install --user behave nose osmium
 RUN pear install PHP_CodeSniffer
+ENV https_proxy=
+ENV http_proxy=
